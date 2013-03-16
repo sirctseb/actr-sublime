@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+how ${1:blah}
+does $2
+this $3
+work $4
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>visual-location</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.lisp</scope>
+</snippet>

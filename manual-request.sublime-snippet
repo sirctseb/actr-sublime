@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+?manual>
+	buffer			empty
+	buffer			full
+	buffer			requested
+	buffer			unrequested
+	state			busy
+	state			free
+	state			error
+	preparation		free
+	preparation		busy
+	processor		free
+	processor		busy
+	execution		free
+	execution		busy
+	last-command	${1:command}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>manual-query</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.lisp</scope>
+</snippet>

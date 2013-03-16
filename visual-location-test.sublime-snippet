@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+=visual-location>
+	ISA			visual-location
+	screen-x	$1
+	screen-y	$2
+	distance	$3
+	kind		$4
+	color		$5
+	value		$6
+	height		$7
+	width		$8
+	size		$9
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>visual-location-test</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.lisp</scope>
+</snippet>

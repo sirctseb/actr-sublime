@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+!mv-bind!	(=${1:variable+}) (${2:form})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bind multiple</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.lisp</scope>
+</snippet>

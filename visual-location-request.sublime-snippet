@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
++visual-location>
+	ISA			visual-location
+	:nearest	${1:vis-loc | current | current-x | current-y | clockwise | counterclockwise}
+	:attended	${2:t | nil | new}
+	:center		${3:vis-loc | vis-obj}
+	screen-x	$4
+	screen-y	$5
+	distance	$6
+	kind		$7
+	color		$8
+	value		$9
+	height		$10
+	width		$11
+	size		$12
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>visual-location-request</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.lisp</scope>
+</snippet>
